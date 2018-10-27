@@ -35,7 +35,11 @@ Annuaire::~Annuaire() {
 void Annuaire::ajouterEnregistrement(Fichier *f, type type) {
 	/* Saisie des champs */
 	cin.ignore();
-	system("clear");
+	#ifdef __linux__
+        system("clear");
+    #elif _WIN32
+        system("cls");
+    #endif
 	cout << "Saisir un enregistrement : \n---------------------------" << endl;
 	cout << "Saisir le nom [20 char. max] : ";
 	getline(cin, mNomTemp);
@@ -82,7 +86,11 @@ void Annuaire::ajouterEnregistrement(Fichier *f, type type) {
 
 void Annuaire::afficherEnregistrement(Fichier *f, type type) {
 
-	system("clear");
+	#ifdef __linux__
+        system("clear");
+    #elif _WIN32
+        system("cls");
+    #endif
 	cout << "Recherche : \n------------" << endl;
 
 	mListeEnregistrements.clear(); // Effacement du tableau (utile si il y a une deuxième sollicitation)
@@ -190,7 +198,11 @@ void Annuaire::afficherAnnuaire(Fichier *f, type type) {
 
 	mListeEnregistrements = f->lire(); // Lecture du fichier, stockage dans mListeEnregistrements
 
-	system("clear");
+	#ifdef __linux__
+        system("clear");
+    #elif _WIN32
+        system("cls");
+    #endif
 
 	cout << "Liste des enregistrements : \n----------------------------" << endl;
 	cout << "Nom\t\t\tPrenom\t\tAge\tNumero de telephone" << endl;
@@ -242,7 +254,11 @@ void Annuaire::afficherListeEnregistrementsFormatee(int j, string *temp, string 
 }
 
 void Annuaire::afficherEnregistrementDirect(vector<string> enregistrement) {
-	system("clear");
+	#ifdef __linux__
+        system("clear");
+    #elif _WIN32
+        system("cls");
+    #endif
 	cout << "Afficher un enregistrement : \n-----------------------------" << endl;
 	cout << "Nom : " << enregistrement[0] << "\nPrenom : " << enregistrement[1] << "\nAge : " << enregistrement[2] << "\nTelephone : " << enregistrement[3] << endl;
 }
