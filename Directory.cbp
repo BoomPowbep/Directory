@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Directory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Directory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Directory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Annuaire.cpp" />
+		<Unit filename="Annuaire.h" />
+		<Unit filename="Fichier.cpp" />
+		<Unit filename="Fichier.h" />
+		<Unit filename="FichierDirect.cpp" />
+		<Unit filename="FichierDirect.h" />
+		<Unit filename="FichierSequentiel.cpp" />
+		<Unit filename="FichierSequentiel.h" />
+		<Unit filename="LigneAnnuaire.cpp" />
+		<Unit filename="LigneAnnuaire.h" />
+		<Unit filename="LigneAnnuaireDirect.cpp" />
+		<Unit filename="LigneAnnuaireDirect.h" />
+		<Unit filename="LigneAnnuaireSequentiel.cpp" />
+		<Unit filename="LigneAnnuaireSequentiel.h" />
+		<Unit filename="Personne.cpp" />
+		<Unit filename="Personne.h" />
+		<Unit filename="README.md" />
+		<Unit filename="annuaire_dir.txt" />
+		<Unit filename="annuaire_seq.txt" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1540651540 source:/home/mickael/Documents/Workspace/Directory/Annuaire.cpp
+	"Annuaire.h"
+
+1484947727 /home/mickael/Documents/Workspace/Directory/Annuaire.h
+	"LigneAnnuaireSequentiel.h"
+	"LigneAnnuaireDirect.h"
+	"FichierSequentiel.h"
+	"FichierDirect.h"
+	<iostream>
+	<vector>
+	<string>
+
+1484662358 /home/mickael/Documents/Workspace/Directory/LigneAnnuaireSequentiel.h
+	"LigneAnnuaire.h"
+
+1484947350 /home/mickael/Documents/Workspace/Directory/LigneAnnuaire.h
+	<string>
+	<iostream>
+	"Personne.h"
+
+1484947552 /home/mickael/Documents/Workspace/Directory/Personne.h
+	<string>
+	<iostream>
+
+1484662019 /home/mickael/Documents/Workspace/Directory/LigneAnnuaireDirect.h
+	"LigneAnnuaire.h"
+
+1484946787 /home/mickael/Documents/Workspace/Directory/FichierSequentiel.h
+	"Fichier.h"
+
+1484946645 /home/mickael/Documents/Workspace/Directory/Fichier.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1484946787 /home/mickael/Documents/Workspace/Directory/FichierDirect.h
+	"Fichier.h"
+
+1484946680 source:/home/mickael/Documents/Workspace/Directory/Fichier.cpp
+	"Fichier.h"
+
+1484947192 source:/home/mickael/Documents/Workspace/Directory/FichierDirect.cpp
+	"FichierDirect.h"
+
+1484947216 source:/home/mickael/Documents/Workspace/Directory/FichierSequentiel.cpp
+	"FichierSequentiel.h"
+
+1484589098 source:/home/mickael/Documents/Workspace/Directory/LigneAnnuaire.cpp
+	"LigneAnnuaire.h"
+
+1484734725 source:/home/mickael/Documents/Workspace/Directory/LigneAnnuaireDirect.cpp
+	"LigneAnnuaireDirect.h"
+
+1484662359 source:/home/mickael/Documents/Workspace/Directory/LigneAnnuaireSequentiel.cpp
+	"LigneAnnuaireSequentiel.h"
+
+1484947552 source:/home/mickael/Documents/Workspace/Directory/Personne.cpp
+	"Personne.h"
+
+1540651142 source:/home/mickael/Documents/Workspace/Directory/main.cpp
+	"Annuaire.h"
+	"FichierSequentiel.h"
+	"FichierDirect.h"
+
